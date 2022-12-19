@@ -52,3 +52,15 @@ footer p {
     text-align: center;
 
 }
+
+@media (max-width: 900px) {
+    header h2 {
+        font-size: 45px;
+    }
+    header h3 {
+        font-size: 20px
+    }
+    header a {
+        font-size: 12px;
+        }
+}
