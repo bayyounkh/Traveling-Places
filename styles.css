@@ -162,8 +162,9 @@ footer a {
 
 
 }
-.grid-3-cols {
+.grid-3-col {
    grid-template-columns: 1fr 1fr 1fr;
+ 
 }
 .grid-3-cols-footer {
      grid-template-columns: 1fr 2fr 2fr;
