@@ -51,7 +51,7 @@ section {
 }
 main h2 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
   opacity: 0.5;
   text-transform: uppercase;
@@ -99,7 +99,7 @@ main .btn {
 }
 .img-responsive {
   display: block;
-    max-width: 100%;
+  width: 100%;
 
 }
 .text-center {
@@ -116,7 +116,16 @@ main .btn {
 .card-footer {
   padding: 0 30px 30px;
 }
-
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.instagram-embeds {
+  margin: 30px 0;
+}
 
 
 footer {
@@ -160,14 +169,17 @@ footer a {
 .grid-2-cols {
     grid-template-columns: 1fr 1fr;
 
-
 }
-.grid-3-col {
+.grid-3-cols {
    grid-template-columns: 1fr 1fr 1fr;
- 
+
 }
 .grid-3-cols-footer {
      grid-template-columns: 1fr 2fr 2fr;
+}
+blockquote {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {
@@ -186,5 +198,8 @@ footer a {
   }
   section {
       padding: 30px;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
