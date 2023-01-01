@@ -4,7 +4,7 @@ body {
   background-color: black;
 }
 .container {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url('Images/amsterdam.webp');
+    url('Images/hh-header.webp');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -45,18 +45,18 @@ header a {
   padding: 18px;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 main h2 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 18px;
   line-height: 1.5;
   opacity: 0.5;
   text-transform: uppercase;
   letter-spacing: 5px;
-
+  margin: 0;
 }
 main h3 {
   font-weight: 600;
@@ -67,19 +67,21 @@ main h3 {
 
 }
 main p {
-    font-style: normal;
-     font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-
 
 }
 .img-responsive {
     max-width: 100%;
 }
+.text-center {
+    text-align: center;
+}
 footer {
   background-image: linear-gradient(rgba(19, 14, 6, 0.8), rgba(19, 14, 6, 0.9)),
-    url('Images/Amsterdam_footer.webp');
+    url('Images/hh-footer.webp');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 24px;
@@ -117,6 +119,7 @@ footer a {
 }
 .grid-2-cols {
     grid-template-columns: 1fr 1fr;
+    border: 1px solid pink;
 
 }
 .grid-3-cols {
